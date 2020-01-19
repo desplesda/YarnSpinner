@@ -100,7 +100,9 @@ namespace Yarn.Unity
 
         /// A Unity event that receives the name of the node that just
         /// finished running
+#pragma warning disable 0649
         [SerializeField] StringUnityEvent onNodeComplete;
+#pragma warning restore 0649
 
         /// <summary>
         /// Event sending a voiceover audio clip matching accociated with the currently run linetag,
